@@ -1,5 +1,7 @@
 1.Meso x 1
 2.Banani x 8
 3.Makaroni x 1
-4.Jogurt x 1
-5.Jajca x 12
+4.Mleko x 1
+5.Jajca x 10
+6.Maslo x 1
+
