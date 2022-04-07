@@ -1,5 +1,5 @@
-1.Meso
-2.Banani
-3.Makaroni
-4.Jogurt
-5.Jajca
+1.Meso x 1
+2.Banani x 4
+3.Makaroni x 1
+4.Jogurt x 1
+5.Jajca x 10
