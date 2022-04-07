@@ -1,0 +1,136 @@
+4. git clone https://github.com/203180/SI_2022_lab1_203180.git
+
+5. git add shopping_list.txt
+   git commit -m "Add 5 items to the shopping list"
+
+6. git add shopping_list.txt
+   git commit -m "Add quantities to the items"
+
+7. git checkout -b branch1
+   git checkout master
+   git checkout -b branch2
+   git checkout master
+
+8. 
+  C:\Users\user\labs\SI_2022_lab1_203180>git log
+commit 4d3d5aa783d3ecad608c50deb2ead0d5c22e6b02 (HEAD -> master, branch2, branch1)
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 02:32:46 2022 +0200
+
+    Add quantities to the items
+
+commit f771d48696b16a466ae0a389b10bbd97c00c8882
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 02:30:17 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit d4f4460ff21c780cc89b5f8ba9cae636bb68ba5f (origin/master, origin/HEAD)
+Author: 203180 <101838725+203180@users.noreply.github.com>
+Date:   Thu Apr 7 02:27:05 2022 +0200
+
+    Add README
+
+commit 75862110b9ce15d01566a192e373ed6d5b60b758
+Author: 203180 <101838725+203180@users.noreply.github.com>
+Date:   Thu Apr 7 02:26:34 2022 +0200
+
+    Initial commit
+
+9.git push
+  git checkout branch1
+  git push --set-upstream origin branch1
+  git checkout branch2
+  git push --set-upstream origin branch2
+
+10.git checkout branch1
+
+11. git add shopping_list.txt
+    git commit -m "Change quantity of item #5"
+
+12. git checkout master
+
+13. git add shopping_list.txt
+    git commit -m "Change quantity of item #2"
+
+14. git push
+    git checkout branch1
+    git push
+
+15. git checkout branch2
+
+16. git add shopping_list.txt
+    git commit -m “Modify item #4"
+
+17.
+C:\Users\user\labs\SI_2022_lab1_203180>git log
+commit 22ea1bed7e2fbabe4fb7cf80de0904f113c37e7d (HEAD -> branch2)
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 02:59:28 2022 +0200
+
+    Modify item #4
+
+commit 4d3d5aa783d3ecad608c50deb2ead0d5c22e6b02 (origin/branch2)
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 02:32:46 2022 +0200
+
+    Add quantities to the items
+
+commit f771d48696b16a466ae0a389b10bbd97c00c8882
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 02:30:17 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit d4f4460ff21c780cc89b5f8ba9cae636bb68ba5f
+Author: 203180 <101838725+203180@users.noreply.github.com>
+Date:   Thu Apr 7 02:27:05 2022 +0200
+
+    Add README
+
+commit 75862110b9ce15d01566a192e373ed6d5b60b758
+Author: 203180 <101838725+203180@users.noreply.github.com>
+Date:   Thu Apr 7 02:26:34 2022 +0200
+
+    Initial commit
+
+18. git reset --soft HEAD~1
+    git add shopping_list.txt
+    git commit -m "Modify item #4 and add item #6”
+
+19.
+C:\Users\user\labs\SI_2022_lab1_203180>git log
+commit bf93d4cbbdfc8ed56a4545735248193c8b983821 (HEAD -> branch2)
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 03:01:45 2022 +0200
+
+    Modify item #4 and add item #6.
+
+commit 4d3d5aa783d3ecad608c50deb2ead0d5c22e6b02 (origin/branch2)
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 02:32:46 2022 +0200
+
+    Add quantities to the items
+
+commit f771d48696b16a466ae0a389b10bbd97c00c8882
+Author: Stefan <you@example.com>
+Date:   Thu Apr 7 02:30:17 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit d4f4460ff21c780cc89b5f8ba9cae636bb68ba5f
+Author: 203180 <101838725+203180@users.noreply.github.com>
+Date:   Thu Apr 7 02:27:05 2022 +0200
+
+    Add README
+
+commit 75862110b9ce15d01566a192e373ed6d5b60b758
+Author: 203180 <101838725+203180@users.noreply.github.com>
+Date:   Thu Apr 7 02:26:34 2022 +0200
+
+    Initial commit
+
+20. git checkout master
+    git merge branch1  TUKA NEMA KONFLIKT
+
+22. git merge branch2 TUKA SE POJAVI KONFLIKT I GO ZEDOV RESENIETO OD BRANCH2
